@@ -1,0 +1,40 @@
+{
+  "name": "ai-career-mentor",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-powered career guidance chatbot with resume analysis and career roadmaps",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite",
+    "deploy": "npm run build && node deploy-to-netlify.js"
+  },
+  "dependencies": {
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "vite": "^4.4.5",
+    "vite-plugin-pwa": "^1.0.3",
+    "workbox-window": "^7.3.0"
+  },
+  "keywords": [
+    "ai",
+    "career",
+    "mentor",
+    "chatbot",
+    "resume",
+    "roadmap"
+  ],
+  "author": "AI Career Mentor",
+  "license": "MIT"
+}
